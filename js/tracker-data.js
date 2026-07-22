@@ -25,7 +25,7 @@ const trackerData = {
   cleanupsHeld: 0,
   volunteerHours: 0,
   lastUpdated: "July 22, 2026",
-  lastCleanupLocation: "N/A"
+  lastCleanupLocation: "N/A",
 };
 
 // Expose to the global window object so the rest of the site can read it.
