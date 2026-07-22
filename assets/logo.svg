@@ -1,1 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-labelledby="greenlink-logo-title">
+  <title id="greenlink-logo-title">GreenLink logo</title>
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#1E88C7"/>
+    </linearGradient>
+  </defs>
 
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FFFFFF" stroke="#E8F3EA" stroke-width="2"/>
+
+  <!-- Water/river swoosh beneath -->
+  <path d="M20,125 C45,150 80,110 100,125 C120,140 155,150 180,125 L180,140 C155,165 120,145 100,140 C80,135 45,165 20,140 Z" fill="url(#waterGrad)"/>
+
+  <!-- Chain links -->
+  <g fill="none" stroke="#2E7D32" stroke-width="10" stroke-linecap="round">
+    <ellipse cx="75" cy="75" rx="22" ry="14" transform="rotate(-20 75 75)"/>
+    <ellipse cx="115" cy="80" rx="22" ry="14" transform="rotate(20 115 80)"/>
+  </g>
+  <g fill="none" stroke="#66BB6A" stroke-width="6" stroke-linecap="round">
+    <ellipse cx="75" cy="75" rx="22" ry="14" transform="rotate(-20 75 75)"/>
+    <ellipse cx="115" cy="80" rx="22" ry="14" transform="rotate(20 115 80)"/>
+  </g>
+
+  <!-- Leaf sprig growing from chain -->
+  <path d="M130,60 Q150,40 170,45" fill="none" stroke="#66BB6A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M170,45 Q160,55 155,65 Q165,60 175,55 Q175,48 170,45 Z" fill="url(#leafGrad)"/>
+  <path d="M130,60 Q145,70 148,85 Q150,75 145,62" fill="url(#leafGrad)"/>
+
+  <!-- Three people silhouette -->
+  <g fill="#2E7D32">
+    <circle cx="85" cy="108" r="7"/>
+    <path d="M73,135 C73,126 78,120 85,120 C92,120 97,126 97,135 L97,150 L73,150 Z"/>
+
+    <circle cx="115" cy="108" r="7"/>
+    <path d="M103,135 C103,126 108,120 115,120 C122,120 127,126 127,135 L127,150 L103,150 Z"/>
+
+    <circle cx="100" cy="95" r="8"/>
+    <path d="M86,123 C86,112 92,105 100,105 C108,105 114,112 114,123 L114,150 L86,150 Z"/>
+  </g>
+</svg>
