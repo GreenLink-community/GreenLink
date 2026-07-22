@@ -8,7 +8,7 @@
    How to update:
    1. Edit the values below to match your latest cleanup numbers.
    2. Save this file.
-   3. Commit and push to GitHub Pages (or your host).
+   3. Commit and push to GitHub Pages.
    4. The homepage will update automatically.
 
    totalPounds    = total pounds of trash collected so far
@@ -20,12 +20,12 @@
    ============================================================= */
 
 const trackerData = {
-  totalPounds: 1240,
-  goalPounds: 5000,
-  cleanupsHeld: 14,
-  volunteerHours: 860,
-  lastUpdated: "July 18, 2026",
-  lastCleanupLocation: "Willow Creek Park"
+  totalPounds: 0,
+  goalPounds: 1,000,
+  cleanupsHeld: 0,
+  volunteerHours: 0,
+  lastUpdated: "July 22, 2026",
+  lastCleanupLocation: "N/A"
 };
 
 // Expose to the global window object so the rest of the site can read it.
