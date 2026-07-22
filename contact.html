@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in touch with GreenLink to volunteer, organize a cleanup, or partner with us." />
+  <title>Contact Us — GreenLink</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link" aria-label="GreenLink home">
+        <img src="assets/logo.svg" alt="" class="logo-mark" />
+        <span class="logo-wordmark">Green<span class="word-link">Link</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="mission.html" class="nav-link">Our Mission</a>
+        <a href="founders.html" class="nav-link">Founders</a>
+        <a href="contact.html" class="nav-link active" aria-current="page">Contact Us</a>
+      </nav>
+
+      <div style="display:flex;align-items:center;gap:0.75rem;">
+        <a href="contact.html" class="btn btn-ghost header-cta">Get Involved</a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="mission.html" class="nav-link">Our Mission</a>
+        <a href="founders.html" class="nav-link">Founders</a>
+        <a href="contact.html" class="nav-link active" aria-current="page">Contact Us</a>
+        <a href="contact.html" class="btn btn-primary">Get Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="reveal">
+          <div class="eyebrow">Get in touch</div>
+          <h1>Have a question, or ready to volunteer?</h1>
+          <p>We check messages every few days and usually reply within 2–3 days. For the fastest response, use the form below or reach out on social media.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Layout -->
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="reveal">
+          <h2 id="contact-title" class="sr-only">Contact form</h2>
+          <div class="contact-form-card">
+            <form class="contact-form" action="#" method="post" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Full name</label>
+                <input type="text" id="name" name="name" class="form-input" required autocomplete="name" />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" id="email" name="email" class="form-input" required autocomplete="email" />
+              </div>
+
+              <div class="form-group">
+                <label for="topic" class="form-label">What's this about?</label>
+                <select id="topic" name="topic" class="form-select" required>
+                  <option value="" disabled selected>Select a topic</option>
+                  <option value="Volunteering">Volunteering</option>
+                  <option value="Organizing a cleanup">Organizing a cleanup</option>
+                  <option value="Partnership or sponsorship">Partnership or sponsorship</option>
+                  <option value="Press or media">Press or media</option>
+                  <option value="Something else">Something else</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p class="form-note">This form will open your email client with a pre-filled message. If your email app doesn't open, you can also email us directly at hello@greenlink-volunteers.org.</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 100ms;">
+          <div class="contact-info-card">
+            <h2 class="sr-only">Contact information</h2>
+            <div class="contact-cards">
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.93 1.93 0 0 1-2.06 0L2 7" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="info-card-title">Email</p>
+                  <p class="info-card-value"><a href="mailto:hello@greenlink-volunteers.org">hello@greenlink-volunteers.org</a></p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13 1.14.39 2.24.75 3.29a2 2 0 0 1-.46 2.1l-1.22 1.21a16 16 0 0 0 6 6l1.21-1.21a2 2 0 0 1 2.1-.46c1.05.36 2.15.62 3.29.75a2 2 0 0 1 1.72 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="info-card-title">Phone</p>
+                  <p class="info-card-value"><a href="tel:+15550123">(555) 012-3456</a><br /><span style="font-size: 0.85rem; color: rgba(22, 59, 34, 0.6);">Leave a message, we'll call back.</span></p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="info-card-title">Where we meet</p>
+                  <p class="info-card-value">Willow Creek Park<br /><span style="font-size: 0.85rem; color: rgba(22, 59, 34, 0.6);">Check socials for exact dates and meeting points.</span></p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="info-card-title">Response time</p>
+                  <p class="info-card-value">We reply within 2–3 business days.</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-card-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 0-12 0v7h4V8a2 2 0 0 1 4 0v7h4V8Z" />
+                    <path d="M20 11h-4v7h4V11Z" />
+                    <path d="M4 11v7h4" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="info-card-title">Follow along</p>
+                  <div class="social-links">
+                    <a href="https://instagram.com/greenlink" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" />
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                      </svg>
+                    </a>
+                    <a href="https://facebook.com/greenlink" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12S0 5.446 0 12.073c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.608c0-3.005 1.79-4.669 4.533-4.669 1.312 0 2.686.234 2.686.234v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.533 3.469h-2.795v8.385C19.612 23.027 24 18.062 24 12.073Z" />
+                      </svg>
+                    </a>
+                    <a href="https://x.com/greenlink" class="social-link" aria-label="X" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H19.37l-5.974-7.82-5.98 7.82H5.27l7.71-8.835L5.118 2.25H8.43l5.52 7.282 5.294-7.282Zm-1.26 16.263h1.868L7.89 4.5H5.934l10.99 14.013Z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-logo">
+          <a href="index.html" class="logo-link" aria-label="GreenLink home">
+            <img src="assets/logo-white.svg" alt="" class="logo-mark" />
+            <span class="logo-wordmark">Green<span class="word-link">Link</span></span>
+          </a>
+          <p class="footer-tagline">Connecting people, parks, and purpose.</p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Explore</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="founders.html">Founders</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Get Involved</h3>
+          <ul class="footer-links">
+            <li><a href="contact.html">Volunteer</a></li>
+            <li><a href="index.html#tracker-title">View the Tracker</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span class="footer-year">2026</span> GreenLink. All rights reserved.</p>
+        <p>Connecting people, parks, and purpose.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/tracker-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
